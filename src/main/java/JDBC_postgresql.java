@@ -14,7 +14,7 @@ public class JDBC_postgresql {
             System.out.println("Соединение установлено");
 
             Statement stat = conn.createStatement();
-            //Выпоним запрос
+            //Выполним запрос
             ResultSet result = stat.executeQuery("SELECT * FROM product");
             int i = 1;
             //Выводим данные
