@@ -4,8 +4,8 @@ public class JDBC_postgresql {
 
     public static void main (String []args) {
         String url = "jdbc:postgresql://127.0.0.1:5432/Computer firm";
-        String user = "postgres";
-        String pass = "admin";
+        String user = "*****";
+        String pass = "*****";
         Connection conn = null;
 
         try {
